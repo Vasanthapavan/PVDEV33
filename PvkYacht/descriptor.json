@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e7329c99-946d-4c77-af73-f85cbfe75358",
+    "Name": "PvkYacht",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/PvkYacht.csproj",
+    "DependsOn": []
+  }
+}
