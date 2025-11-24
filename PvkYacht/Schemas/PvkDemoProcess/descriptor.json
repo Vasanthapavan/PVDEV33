@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "e8e7f732-ee5d-4527-a3a7-54fa2503cdd1",
     "Name": "PvkDemoProcess",
-    "ModifiedOnUtc": "\/Date(1763738150000)\/",
+    "ModifiedOnUtc": "\/Date(1763993758000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Demo Business process",
     "DependsOn": []
