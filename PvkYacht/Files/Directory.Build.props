@@ -2,5 +2,6 @@
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs')" />
 		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs')" />
+		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs')" />
 	</ItemGroup>
 </Project>

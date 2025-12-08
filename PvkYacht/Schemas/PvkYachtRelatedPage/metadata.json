@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "45889c2a-765e-4580-969b-ca60cd774a64",
+      "A2": "PvkYachtRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "48255528-8693-4016-8590-49ae768afaec",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "d2e599ae-b055-4604-9c72-ee2ca5f187d3",
+            "PageSchemaUId": "0669c6c6-a1e6-4004-9015-6913e8cdba54",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

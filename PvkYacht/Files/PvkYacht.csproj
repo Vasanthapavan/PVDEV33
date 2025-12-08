@@ -591,6 +591,7 @@
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

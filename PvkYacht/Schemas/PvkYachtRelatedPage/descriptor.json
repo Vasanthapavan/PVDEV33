@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "45889c2a-765e-4580-969b-ca60cd774a64",
+    "Name": "PvkYachtRelatedPage",
+    "ModifiedOnUtc": "\/Date(1765215499000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacht (Page settings)",
+    "DependsOn": []
+  }
+}
