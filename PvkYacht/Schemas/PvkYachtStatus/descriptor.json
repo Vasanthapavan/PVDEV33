@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "84454403-e743-46e0-8ac3-3ed632084ab1",
+    "Name": "PvkYachtStatus",
+    "ModifiedOnUtc": "\/Date(1765262864000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yacht Status",
+    "DependsOn": []
+  }
+}

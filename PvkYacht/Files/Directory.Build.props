@@ -3,5 +3,7 @@
 		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs')" />
 		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs')" />
 		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs')" />
+		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkYachtDriveType/PvkYachtDriveType.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkYachtDriveType/PvkYachtDriveType.cs')" />
+		<Compile Include="$(PkgPath)/PvkYacht/Schemas/PvkYachtStatus/PvkYachtStatus.cs" Condition="Exists('$(PkgPath)/PvkYacht/Schemas/PvkYachtStatus/PvkYachtStatus.cs')" />
 	</ItemGroup>
 </Project>

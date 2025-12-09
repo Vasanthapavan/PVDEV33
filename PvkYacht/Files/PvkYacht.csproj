@@ -592,6 +592,8 @@
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYachtDriveType/PvkYachtDriveType.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYachtDriveType/PvkYachtDriveType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYachtStatus/PvkYachtStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYachtStatus/PvkYachtStatus.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

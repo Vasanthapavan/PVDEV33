@@ -3,7 +3,15 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht" />
+			<Item Name="Columns.PvkComment.Caption" Value="Comment" />
+			<Item Name="Columns.PvkCrewCount.Caption" Value="Crew Count" />
+			<Item Name="Columns.PvkDriveType.Caption" Value="Drive Type" />
+			<Item Name="Columns.PvkManager.Caption" Value="Manager" />
 			<Item Name="Columns.PvkName.Caption" Value="Name" />
+			<Item Name="Columns.PvkPassengerCount.Caption" Value="Passenger Count" />
+			<Item Name="Columns.PvkPrice.Caption" Value="Price, USD" />
+			<Item Name="Columns.PvkRegCode.Caption" Value="Reg code" />
+			<Item Name="Columns.PvkStatus.Caption" Value="Status" />
 		</Items>
 	</Group>
 </Resources>

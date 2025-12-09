@@ -2,6 +2,64 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
+				"operation": "merge",
+				"name": "Tabs",
+				"values": {
+					"styleType": "default",
+					"mode": "tab",
+					"bodyBackgroundColor": "primary-contrast-500",
+					"selectedTabTitleColor": "auto",
+					"tabTitleColor": "auto",
+					"underlineSelectedTabColor": "auto",
+					"headerBackgroundColor": "auto",
+					"allowToggleClose": true
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "Feed",
+				"values": {
+					"dataSourceName": "PDS",
+					"entitySchemaName": "PvkYacht"
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "AttachmentList",
+				"values": {
+					"columns": [
+						{
+							"id": "25e9c73f-5d2d-4926-9976-757cea8728fb",
+							"code": "AttachmentListDS_Name",
+							"caption": "#ResourceString(AttachmentListDS_Name)#",
+							"dataValueType": 28,
+							"width": 200
+						}
+					]
+				}
+			},
+			{
+				"operation": "insert",
+				"name": "Pushme",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Pushme_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "Pvk.PushButtonRequest"
+					},
+					"clickMode": "default",
+					"icon": "settings-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
 				"operation": "insert",
 				"name": "PvkName",
 				"values": {
@@ -21,91 +79,367 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"index": 0
 			},
 			{
-				"operation": "merge",
-				"name": "AttachmentList",
+				"operation": "insert",
+				"name": "RegCode",
 				"values": {
-					"type": "crt.FileList",
-					"masterRecordColumnValue": "$Id",
-					"recordColumnName": "RecordId",
 					"layoutConfig": {
-						"colSpan": 2,
 						"column": 1,
-						"row": 1,
-						"rowSpan": 6
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
 					},
-					"items": "$AttachmentList",
-					"primaryColumnName": "AttachmentListDS_Id",
-					"columns": [
-						{
-							"id": "25e9c73f-5d2d-4926-9976-757cea8728fb",
-							"code": "AttachmentListDS_Name",
-							"caption": "#ResourceString(AttachmentListDS_Name)#",
-							"dataValueType": 28,
-							"width": 200
-						}
-					],
-					"viewType": "gallery",
-					"tileSize": "small"
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_PvkRegCode_avedofa",
+					"control": "$PDS_PvkRegCode_avedofa",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": true,
+					"multiline": false,
+					"labelPosition": "auto",
+					"visible": true
 				},
-				"parentName": "AttachmentsTabContainer",
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "Price",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_PvkPrice_gwlrtay",
+					"control": "$PDS_PvkPrice_gwlrtay",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "DriveType",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_PvkDriveType_lhsg79s",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": false,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_PvkDriveType_lhsg79s",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
-				"operation": "merge",
-				"name": "Feed",
+				"operation": "insert",
+				"name": "YachtStatus",
 				"values": {
-					"type": "crt.Feed",
-					"feedType": "Record",
-					"primaryColumnValue": "$Id",
-					"cardState": "$CardState",
-					"dataSourceName": "PDS",
-					"entitySchemaName": "PvkYacht"
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_PvkColumn10_6t2sop6",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_PvkColumn10_6t2sop6",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
 				},
-				"parentName": "FeedTabContainer",
+				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_8pdqnt2",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_8pdqnt2_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "YachtStatus",
+				"propertyName": "listActions",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "PassengerCount",
+				"values": {
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_PvkPassengerCount_bavc53m",
+					"control": "$PDS_PvkPassengerCount_bavc53m",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": "",
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Manager",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_PvkManager_opjljiy",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": false,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_PvkManager_opjljiy",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "CrewCount",
+				"values": {
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_PvkColumn12_ex854ya",
+					"control": "$PDS_PvkColumn12_ex854ya",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": "",
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "YachtComment",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_PvkComment_qk99f8k",
+					"control": "$PDS_PvkComment_qk99f8k",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": false,
+					"multiline": false,
+					"labelPosition": "auto"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
-		viewModelConfig: /**SCHEMA_VIEW_MODEL_CONFIG*/{
-			"attributes": {
-				"PvkName": {
-					"modelConfig": {
-						"path": "PDS.PvkName"
-					}
-				},
-				"Id": {
-					"modelConfig": {
-						"path": "PDS.Id"
-					}
-				}
-			}
-		}/**SCHEMA_VIEW_MODEL_CONFIG*/,
-		modelConfig: /**SCHEMA_MODEL_CONFIG*/{
-			"dataSources": {
-				"PDS": {
-					"type": "crt.EntityDataSource",
-					"config": {
-						"entitySchemaName": "PvkYacht"
+		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"path": [
+					"attributes"
+				],
+				"values": {
+					"PvkName": {
+						"modelConfig": {
+							"path": "PDS.PvkName"
+						}
 					},
-					"scope": "page"
-				},
-				"AttachmentListDS": {
-					"type": "crt.EntityDataSource",
-					"scope": "viewElement",
-					"config": {
-						"entitySchemaName": "SysFile",
-						"attributes": {
-							"Name": {
-								"path": "Name"
+					"PDS_PvkPrice_gwlrtay": {
+						"modelConfig": {
+							"path": "PDS.PvkPrice"
+						}
+					},
+					"PDS_PvkDriveType_lhsg79s": {
+						"modelConfig": {
+							"path": "PDS.PvkDriveType"
+						}
+					},
+					"PDS_PvkDriveType_lhsg79s_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
 							}
+						}
+					},
+					"PDS_PvkColumn10_6t2sop6": {
+						"modelConfig": {
+							"path": "PDS.PvkStatus"
+						}
+					},
+					"PDS_PvkColumn10_6t2sop6_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"PDS_PvkPassengerCount_bavc53m": {
+						"modelConfig": {
+							"path": "PDS.PvkPassengerCount"
+						}
+					},
+					"PDS_PvkColumn12_ex854ya": {
+						"modelConfig": {
+							"path": "PDS.PvkCrewCount"
+						}
+					},
+					"PDS_PvkManager_opjljiy": {
+						"modelConfig": {
+							"path": "PDS.PvkManager"
+						}
+					},
+					"PDS_PvkManager_opjljiy_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"PDS_PvkComment_qk99f8k": {
+						"modelConfig": {
+							"path": "PDS.PvkComment"
+						}
+					},
+					"PDS_PvkRegCode_avedofa": {
+						"modelConfig": {
+							"path": "PDS.PvkRegCode"
 						}
 					}
 				}
 			},
-			"primaryDataSourceName": "PDS"
-		}/**SCHEMA_MODEL_CONFIG*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+			{
+				"operation": "merge",
+				"path": [
+					"attributes",
+					"Id",
+					"modelConfig"
+				],
+				"values": {
+					"path": "PDS.Id"
+				}
+			}
+		]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
+		modelConfigDiff: /**SCHEMA_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"path": [],
+				"values": {
+					"primaryDataSourceName": "PDS"
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"dataSources"
+				],
+				"values": {
+					"PDS": {
+						"type": "crt.EntityDataSource",
+						"config": {
+							"entitySchemaName": "PvkYacht"
+						},
+						"scope": "page"
+					}
+				}
+			}
+		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "Pvk.PushButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					console.log("Button works...");
+					Terrasoft.showInformation("My button was pressed.");
+					var price = await request.$context.PDS_PvkPrice_gwlrtay;
+					console.log("Price = " + price);
+					request.$context.PDS_PvkComment_qk99f8k = "comment from JS code!";
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			}
+		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};
