@@ -3,6 +3,14 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
+				"name": "SaveButton",
+				"values": {
+					"size": "large",
+					"iconPosition": "only-text"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "Tabs",
 				"values": {
 					"styleType": "default",
@@ -104,7 +112,7 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "Price",
+				"name": "PriceperdayEUR",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -113,8 +121,8 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_PvkPrice_gwlrtay",
-					"control": "$PDS_PvkPrice_gwlrtay",
+					"label": "$Resources.Strings.PDS_PvkPriceperdayEUR_bc7hxto",
+					"control": "$PDS_PvkPriceperdayEUR_bc7hxto",
 					"readonly": false,
 					"placeholder": "",
 					"labelPosition": "auto",
@@ -385,6 +393,11 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS_PvkRegCode_avedofa": {
 						"modelConfig": {
 							"path": "PDS.PvkRegCode"
+						}
+					},
+					"PDS_PvkPriceperdayEUR_bc7hxto": {
+						"modelConfig": {
+							"path": "PDS.PvkPriceperdayEUR"
 						}
 					}
 				}

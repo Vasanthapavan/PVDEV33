@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a46eff2a-1d5d-4045-b1f2-85387faaf560",
+    "Name": "PvkYachtBusinessRule",
+    "ModifiedOnUtc": "\/Date(1765360254000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacht (Business rules)",
+    "DependsOn": []
+  }
+}
