@@ -142,7 +142,41 @@
   "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
   "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","be55435c-e512-4ddd-be56-83f0ec363527","82c8596b-80a4-9b0b-970c-a3f78cc09bf8","63a9ce9b-bde4-6e3a-5965-9c2ea5c11ce5","d2952d1c-7943-60ad-dc89-0eefc3506ce4","33b3bf53-1e80-1bd7-8aa0-a6eb92b45476","bcf75d28-3da1-baae-bf74-72f96add8432","5c5f25f1-bad5-d16e-6703-8986701d9477","bdf6e751-f540-d700-f74b-27f7f72b2651","ec7ece6e-dc36-63d7-c8bf-019fac4d9ce2","0ddaaf3f-f11a-71da-1179-78f2d4a87c33"]
++ MetaData.Schema.D2 {
+  "UId": "30493e7b-eab8-2e03-ef9d-ab8c2f9ced71",
+  "A2": "PvkCity",
+  "A3": "48255528-8693-4016-8590-49ae768afaec",
+  "A4": "48255528-8693-4016-8590-49ae768afaec",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+  "E6": true,
+  "E20": true,
+  "E17": "PvkCityId",
+  "E18": "PvkCityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "92d54021-220f-1254-ad11-6aadd94e8613",
+  "A2": "PvkCountry",
+  "A3": "48255528-8693-4016-8590-49ae768afaec",
+  "A4": "48255528-8693-4016-8590-49ae768afaec",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+  "E6": true,
+  "E20": true,
+  "E17": "PvkCountryId",
+  "E18": "PvkCountryName"
+}
++ MetaData.Schema.D2 {
+  "UId": "56ec6b37-4398-aaad-d678-733e5605e7ca",
+  "A2": "PvkTicketPrice",
+  "A3": "48255528-8693-4016-8590-49ae768afaec",
+  "A4": "48255528-8693-4016-8590-49ae768afaec",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","be55435c-e512-4ddd-be56-83f0ec363527","82c8596b-80a4-9b0b-970c-a3f78cc09bf8","63a9ce9b-bde4-6e3a-5965-9c2ea5c11ce5","d2952d1c-7943-60ad-dc89-0eefc3506ce4","33b3bf53-1e80-1bd7-8aa0-a6eb92b45476","bcf75d28-3da1-baae-bf74-72f96add8432","5c5f25f1-bad5-d16e-6703-8986701d9477","bdf6e751-f540-d700-f74b-27f7f72b2651","ec7ece6e-dc36-63d7-c8bf-019fac4d9ce2","0ddaaf3f-f11a-71da-1179-78f2d4a87c33","30493e7b-eab8-2e03-ef9d-ab8c2f9ced71","92d54021-220f-1254-ad11-6aadd94e8613","56ec6b37-4398-aaad-d678-733e5605e7ca"]
 = MetaData.Schema.D20.A2 "PvkYachtEvents"
 = MetaData.Schema.D36.A3 "48255528-8693-4016-8590-49ae768afaec"
 = MetaData.Schema.D36.BS1 false
