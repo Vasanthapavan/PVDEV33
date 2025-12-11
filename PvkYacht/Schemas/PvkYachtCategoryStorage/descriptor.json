@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "22c9da07-5046-4907-9eaf-4b6ad8a96b16",
+    "Name": "PvkYachtCategoryStorage",
+    "ModifiedOnUtc": "\/Date(1765382803000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yacht Category Storage",
+    "DependsOn": []
+  }
+}

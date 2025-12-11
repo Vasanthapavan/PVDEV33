@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "850ecb02-a392-4439-962b-ab4ad9f5e66b",
+    "Name": "PvkYachtRentalRelatedPage",
+    "ModifiedOnUtc": "\/Date(1765381132000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacht rental (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht rental" />
+			<Item Name="Columns.PvkComment.Caption" Value="Comment" />
+			<Item Name="Columns.PvkCustomer.Caption" Value="Customer" />
+			<Item Name="Columns.PvkManager.Caption" Value="Manager" />
+			<Item Name="Columns.PvkParentYacht.Caption" Value="Parent Yacht" />
+			<Item Name="Columns.PvkRentalEnd.Caption" Value="Rental End" />
+			<Item Name="Columns.PvkRentalStart.Caption" Value="Rental Start" />
+		</Items>
+	</Group>
+</Resources>

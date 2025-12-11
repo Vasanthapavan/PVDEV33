@@ -1,0 +1,116 @@
+= MetaData.Schema.UId "bebba61e-fc41-4e68-a3ee-614041e9723e"
+= MetaData.Schema.A2 "PvkYachtRental"
+= MetaData.Schema.A5 "02c62ee6-efc6-423e-b053-8b8bb79fb8ca"
+= MetaData.Schema.B6 "e7329c99-946d-4c77-af73-f85cbfe75358"
+= MetaData.Schema.B8 "8.3.1.4481"
+= MetaData.Schema.EG1.UId "2605c7c6-e460-45f2-a44b-1289583491ae"
+= MetaData.Schema.EG1.A2 "PvkEntity_b6006a0EventsProcess"
+= MetaData.Schema.EG1.A5 "02c62ee6-efc6-423e-b053-8b8bb79fb8ca"
++ MetaData.Schema.EG1.B8 "8.3.1.4481"
+= MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK4.["08594d74-60b0-45ce-bf17-bac1a8b127f7"].CK2.["496d4a3c-b644-4a65-b0ed-2534d9236da5"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["90027ac8-c9c3-4d21-a4f9-da1cde752cd1"].CK2.["d8b8410f-5c8a-4ddc-8fc2-353483452aed"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["5f3bfbbe-1820-44ca-92f1-6f993169b2dd"].CK2.["d7c806b7-a29b-4ce5-9167-b3319472e772"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["dbf48103-dcf6-4f53-a052-d727a95ea0b4"].CK2.["933bf2fc-d052-40c8-a3e0-bf60049da5d8"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["f0646c74-f291-474f-9a10-143ee868f1c9"].CK2.["b3d5b61f-7afe-48b5-a8cc-40317ea9c428"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.BK4.["8140d7e7-fb91-4999-8347-543345440efb"].CK2.["c803a450-c8dc-47a4-b704-7125c23db317"].BL7 "53818048-7868-48f6-ada0-0ebaa65af628"
+= MetaData.Schema.EG1.JC1 []
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D2 {
+  "UId": "53670304-aaf8-a4f2-72ba-adf638b66068",
+  "A2": "PvkComment",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+}
++ MetaData.Schema.D2 {
+  "UId": "5945864b-c322-8b74-c4ee-0510bbc42e20",
+  "A2": "PvkCustomer",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E17": "PvkCustomerId",
+  "E18": "PvkCustomerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "fa88945b-3fad-7d7a-1d78-46f3d39e670f",
+  "A2": "PvkRentalEnd",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01",
+  "E12": {
+    "FB1": 3,
+    "FB2": "91bd3856-9686-4eb2-9e7c-99f1e6ca0f02"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "39029a7b-a5e5-0904-d774-13a222e3cdfc",
+  "A2": "PvkRentalStart",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01",
+  "E2": 1,
+  "E12": {
+    "FB1": 3,
+    "FB2": "91bd3856-9686-4eb2-9e7c-99f1e6ca0f02"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "12a8d0eb-9986-5534-ea24-a6306f690e38",
+  "A2": "PvkParentYacht",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "48255528-8693-4016-8590-49ae768afaec",
+  "E2": 1,
+  "E6": true,
+  "E9": true,
+  "E17": "PvkParentYachtId",
+  "E18": "PvkParentYachtPvkName"
+}
++ MetaData.Schema.D2 {
+  "UId": "d8748a78-a0c2-6e39-d03e-b5f947f8f8cc",
+  "A2": "PvkManager",
+  "A3": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A4": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+  "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E17": "PvkManagerId",
+  "E18": "PvkManagerName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","53670304-aaf8-a4f2-72ba-adf638b66068","5945864b-c322-8b74-c4ee-0510bbc42e20","fa88945b-3fad-7d7a-1d78-46f3d39e670f","39029a7b-a5e5-0904-d774-13a222e3cdfc","12a8d0eb-9986-5534-ea24-a6306f690e38","d8748a78-a0c2-6e39-d03e-b5f947f8f8cc"]
+= MetaData.Schema.D20.A2 "PvkYachtRentalEvents"
+= MetaData.Schema.D36.A3 "bebba61e-fc41-4e68-a3ee-614041e9723e"
+= MetaData.Schema.D36.BS1 false
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

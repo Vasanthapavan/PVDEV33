@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1ac87fde-4ca2-4da4-8570-0aee5ac5092a",
+    "Name": "PvkYachtCategory",
+    "ModifiedOnUtc": "\/Date(1765382200000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yacht Category",
+    "DependsOn": []
+  }
+}

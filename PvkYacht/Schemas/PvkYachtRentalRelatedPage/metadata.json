@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "850ecb02-a392-4439-962b-ab4ad9f5e66b",
+      "A2": "PvkYachtRentalRelatedPage",
+      "A5": "02c62ee6-efc6-423e-b053-8b8bb79fb8ca",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "e7329c99-946d-4c77-af73-f85cbfe75358",
+      "B8": "8.3.1.4481",
+      "AD1": "bebba61e-fc41-4e68-a3ee-614041e9723e",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "7268d115-5f7c-30b2-a578-5660d9c96902",
+      "PageSchemaUId": "319a44a9-c055-4fde-9f73-bfacbc9e7f9d",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}
