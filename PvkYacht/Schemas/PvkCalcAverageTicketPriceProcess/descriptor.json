@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1cbda580-b38e-4f8a-80f5-91a74d34fe0e",
+    "Name": "PvkCalcAverageTicketPriceProcess",
+    "ModifiedOnUtc": "\/Date(1765476804000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate average ticket price",
+    "DependsOn": []
+  }
+}

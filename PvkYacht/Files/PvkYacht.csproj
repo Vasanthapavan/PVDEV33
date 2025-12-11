@@ -326,6 +326,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtBaseConsts">
 			<HintPath>$(RelativePkgFolderPath)/CrtBaseConsts/$(StandalonePackageAssemblyPath)/CrtBaseConsts.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -556,11 +561,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360App">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtSpecification">
 			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -589,6 +589,7 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/Account/Account.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkTrafficLight/PvkTrafficLight.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkvwContactAgeDays/PvkvwContactAgeDays.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs" Condition="Exists('$(RelativePkgFolderPath)/PvkYacht/Schemas/PvkYacht/PvkYacht.cs')" />

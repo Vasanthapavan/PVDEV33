@@ -48,6 +48,48 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "Button_qcjo52u",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_qcjo52u_caption)#",
+					"color": "outline",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunCalcTicketPriceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunCalcTicketPriceMenuItem_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "PvkCalcAverageTicketPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "YachtIdParameter"
+						}
+					},
+					"icon": "calculator-icon"
+				},
+				"parentName": "Button_qcjo52u",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Pushme",
 				"values": {
 					"type": "crt.Button",
@@ -65,7 +107,7 @@ define("PvkYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
